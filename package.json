@@ -1,0 +1,20 @@
+{
+  "name": "tyscriptPilaresPOO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/01.ts",
+    "dev2": "ts-node-dev --respawn --transpile-only ./src/02.ts",
+    "dev3": "ts-node-dev --respawn --transpile-only ./src/03.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
